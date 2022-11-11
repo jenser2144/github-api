@@ -8,6 +8,7 @@ import requests
 class GitHubApi:
     """Class to interact with the GitHub API to pull information on repos, commit, etc
        GitHub API Documentation: https://docs.github.com/en/rest
+       Create GitHub Personal Access Token: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
     """
 
     def __init__(self, user_name, github_token_file_path):
